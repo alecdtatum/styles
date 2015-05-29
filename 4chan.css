@@ -4,183 +4,187 @@
 
 /* General */
 body {
-        font-family: Roboto !important;
-        color: #FFFFFF !important;
-        padding: 0 50px 0 50px;
-        background: #222222 !important;
-        }
+    font: 14px 'Roboto' !important;
+    color: #FFFFFF !important;
+    padding: 0 50px 0 50px;
+    background: #222222 !important;
+    }
 a,
 a:visited {
-        color: #999999 !important;
-        text-decoration: none !important;
-        cursor: default !important;
-        }
+    color: #999999 !important;
+    text-decoration: none !important;
+    cursor: default !important;
+    }
 a:hover {
-        color: #FFFFFF !important;
-        transition: 0.3s linear !important;
-        }
- 
- 
+    color: #FFFFFF !important;
+    transition: 0.3s linear !important;
+    }
+
+
+/* Header */
+#header-bar {
+    height: 25px !important;
+    padding: 0 0 0 0 !important;
+    box-shadow: none !important;
+    }
+
+
 /* Unorganized */
 #header-bar.dialog {
-        background-color: #222222 !important;
-        border-bottom: none !important;
-        }
+    background-color: #222222 !important;
+    border-bottom: none !important;
+    }
 .yotsuba-b:root .dialog,
 .yotsuba-b:root .suboption-list > div:last-of-type {
-        background-color: #222222 !important;
-        }
+    background-color: #222222 !important;
+    }
 .yotsuba-b:root #header-bar {
-        color: #777777 !important;
-        }
+    color: #777777 !important;
+    }
 .field {
-        background-color: #222222 !important;
-        color: #FFFFFF !important;
-        }
+    background-color: #222222 !important;
+    color: #FFFFFF !important;
+    }
 .yotsuba-b:root #menu {
-        color: #FFFFFF !important;
-        }
+    color: #FFFFFF !important;
+    }
 .yotsuba-b:root .qr-link,
 .yotsuba-b:root .qr-link:hover {
-        border: none !important;
-        background: none !important;
-        }
+    border: none !important;
+    background: none !important;
+    }
 .yotsuba-b.fixed:root #custom-board-list .current,
 .yotsuba-b.fixed:root #custom-board-list .current:hover {
-        border-bottom-color: #777777 !important;
-        }
- 
- 
+    border-bottom-color: #777777 !important;
+    padding: 0 0 0 0 !important;
+    }
+
+
 /* Catalog */
 .extended-large .thread {
-        width: 300px !important;
-        height: auto;
-        min-height: 300px !important;
-        max-height: 300px !important;
-        margin: 10px 0 20px 20px !important;
-        background: #222222 !important;
-        border: 1px solid #777777 !important;
-  transition: max-height 0.3s linear, box-shadow 0.3s linear !important;
-  }
+    width: 300px !important;
+    height: auto;
+    min-height: 300px !important;
+    max-height: 300px !important;
+    margin: 10px 0 20px 20px !important;
+    background: #222222 !important;
+    border: 1px solid #777777 !important;
+    transition: max-height 0.3s linear, box-shadow 0.3s linear !important;
+    }
 .extended-large .thread:hover {
-        max-height: 900px !important;
-        box-shadow:  0 0 25px 0 #777777 !important;
-        transition: max-height 0.6s linear, box-shadow 0.1s linear !important;
-  }
+    max-height: 900px !important;
+    box-shadow:  0 0 25px 0 #777777 !important;
+    transition: max-height 0.6s linear, box-shadow 0.1s linear !important;
+    }
 .teaser {
-        font-size: 1.0em !important;
-        }
- 
- 
+    font-size: 1.0em !important;
+    }
+
+
 /* Threads */
 div.post {
-        width: 100% !important;
-        max-width: 100% !important;
-        padding-left: 0 !important;
-        }
+    width: 100% !important;
+    max-width: 100% !important;
+    padding-left: 0 !important;
+    }
 div.post.reply {
-        display: inline-block !important;
-        max-width: 100% !important;
-        margin: 0 0 -5px 0 !important;
-        background: #222222 !important;
-        border: 1px solid #777777 !important;
-        }
+    display: inline-block !important;
+    max-width: 100% !important;
+    margin: 0 0 -5px 0 !important;
+    background: #222222 !important;
+    border: 1px solid #777777 !important;
+    }
 div.post.reply.qphl {
-        background: #333333 !important;
-        transition: 0.3s linear !important;
-        outline: none !important;
-        }
+    background: #333333 !important;
+    transition: 0.3s linear !important;
+    outline: none !important;
+    }
 .fileThumb {
-        padding: 0 0 0 0 !important;
-        margin: 10px 20px 20px 20px !important;
-        }
+    padding: 0 0 0 0 !important;
+    margin: 10px 20px 20px 20px !important;
+    }
 .fileThumb:hover {
-        box-shadow:  0 0 15px 0 #777777 !important;
-        transition: 0.3s linear !important;
-        }
+    box-shadow:  0 0 15px 0 #777777 !important;
+    transition: 0.3s linear !important;
+    }
 .thread img {
-        cursor: default !important;
-        }
+    cursor: default !important;
+    }
 blockquote {
-        margin: 0.8em 3.0em 0.3em 1.8em !important;
-        }
- 
- 
+    margin: 0.8em 3.0em 0.3em 1.8em !important;
+    }
+
+
 /* Posts */
 span.subject {
-        font: 1.1em Roboto Condensed !important;
-        color: #FFFFFF !important;
-        }
+    font: 1.1em Roboto Condensed !important;
+    color: #FFFFFF !important;
+    }
 span.nameBlock {
-        padding-left: 5px !important;
-        color: #BBBBBB !important;
-        margin: 0 !important;
-        }
+    padding-left: 5px !important;
+    color: #BBBBBB !important;
+    margin: 0 !important;
+    }
 .postInfo {
-        cursor: default !important;
-        }
+    cursor: default !important;
+    }
 span.name,
 span.postertrip,
 span.posteruid,
 div.post div.postInfo span.postNum > a {
-        color: #BBBBBB !important;
-        cursor: default !important;
-        }
+    color: #BBBBBB !important;
+    cursor: default !important;
+    }
 .dateTime {
-        color: #888888 !important;
-        }
+    color: #888888 !important;
+    }
 span.name:hover,
 span.postertrip:hover,
 span.posteruid:hover,
 .dateTime:hover,
 div.post div.postInfo span.postNum a:hover {
-        color: #FFFFFF !important;
-        transition: 0.3s linear !important;
-        }
- 
+    color: #FFFFFF !important;
+    transition: 0.3s linear !important;
+    }
 div.fileText {
-        font-size: 0;
-        margin: 5px 0 -10px 20px !important;
-        padding-bottom: 10px !important;
-        }
+    font-size: 0;
+    margin: 5px 0 -10px 20px !important;
+    padding-bottom: 10px !important;
+    }
 div.fileText a {
-        font-size: 13px !important;
-        padding-right: 3px !important;
-        }
-       
+    font-size: 13px !important;
+    padding-right: 3px !important;
+    }
 span.quote {
-        color: #008000 !important;
-        }
+    color: #008000 !important;
+    }
 a.quotelink, span.deadlink {
-        color: #999999 !important;
-        cursor: default !important;
-        }
+    color: #999999 !important;
+    cursor: default !important;
+    }
 a.quotelink:hover, span.deadlink:hover {
-        color: #FFFFFF !important;
-        transition: 0.3s linear !important;
-        }
- 
+    color: #FFFFFF !important;
+    transition: 0.3s linear !important;
+    }
 .backlink {
-        font-size: 0 !important;
-        }
+    font-size: 0 !important;
+    }
 .backlink:after {
-        padding: 2px !important;
-        content: url('https://i.imgur.com/lFuGnSO.png') !important;
-        }
+    padding: 2px !important;
+    content: url('https://i.imgur.com/lFuGnSO.png') !important;
+    }
 .backlink:hover::after,
 .backlink.inlined::after {
-        content: url('https://i.imgur.com/cZk3n8Y.png') !important;
-        }
+    content: url('https://i.imgur.com/cZk3n8Y.png') !important;
+    }
 .dialog:not(#qr):not(#thread-watcher):not(#header-bar):not(#fourchanx-settings):not(#menu):not(.submenu) {
-        width: 800px !important;
-        margin: 120px 0 0 -30px !important;
-        border: none !important;
-        }
+    width: 800px !important;
+    margin: 120px 0 0 -30px !important;
+    border: none !important;
+    }
 .inline {
-        border: none !important;
-        }
- 
- 
+    border: none !important;
+    }
 .boardBanner,
 .topad,
 .middlead,
@@ -196,9 +200,10 @@ hr,
 .postMenuBtn,
 .sideArrows,
 div#absbot {
-        display: none !important;
-        }
- 
- 
- 
+    display: none !important;
+    }
+
+
+
 }
+    
