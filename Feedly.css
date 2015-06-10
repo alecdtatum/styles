@@ -1,357 +1,367 @@
+/* AGENT_SHEET */
 @-moz-document domain(feedly.com) {
- 
- 
- 
+
+
+
 /* General */
 body, body.home {
-        font-family: Roboto !important;
-        color: #FFFFFF !important;
-        }
-#floatingEntry .entryBody {
-       
-        font-size: 1.4em !important;
-        }
-h1, h2, h2, b {
-        color: #FFFFFF !important;
-        }
- 
- 
- 
+    font-family: Roboto !important;
+    color: #FFFFFF !important;
+    }
+
+a:hover {
+    color: #777777 !important;
+    cursor: default !important;
+    transition: 0.3s linear !important;
+    }
+h1, h2, h2, h4, b {
+    color: #FFFFFF !important;
+    }
+h1 {
+    font: 24px 'Roboto Light' !important;
+    }
+h2 {
+    margin: 0 0 0 0 !important;
+    }
+p {
+    margin: 7px 0 0 0 !important;
+    }
+
+
 /* Sidebar */
 #feedlyTabsHolder, #feedlyTabs, #fixedProfile {
-        background: #222222 !important;
-        }
+    background: #333333 !important;
+    }
 #feedlyTabsHolder, .empty, .nonEmpty, .staticSimpleUnreadCount {
-        color: #FFFFFF !important;
-        }
+    color: #FFFFFF !important;
+    }
 #feedlyTabsHolder {
-        width: 250px !important;
-        }
+    width: 250px !important;
+    }
 #feedlyTabs {
-        width: auto !important;
-        padding: 0 !important;
-        overflow-y: hidden !important;
-        }
+    width: auto !important;
+    padding: 0 !important;
+    overflow-y: hidden !important;
+    }
  
 #feedlyTabs .label {
-        font: 1.2em Roboto Light !important;
-        cursor: default !important;
-        }
+    font: 1.2em Roboto Light !important;
+    cursor: default !important;
+    }
 .selected {
-        font: italic 1.0em  Roboto !important;
-        font-weight: normal !important;
-}
+    font: italic 1.0em  Roboto !important;
+    font-weight: normal !important;
+    }
 .staticSimpleUnreadCount {
-        font: 1.0em Roboto Light !important;
-        padding: 1px 0 1px 0 !important;
-        z-index: 1000000 !important;
-        }
+    font: 1.0em Roboto Light !important;
+    padding: 1px 0 1px 0 !important;
+    z-index: 1000000 !important;
+    }
 [class="tab"] {
-        padding: 0 10px 0 15px !important;
-        cursor: default !important;
-        }
+    padding: 0 10px 0 15px !important;
+    cursor: default !important;
+    }
 [class="tab"]:hover {
-        background: #444444 !important;
-        transition: 0.3s linear !important;
-        }
+    background: #444444 !important;
+    transition: 0.3s linear !important;
+    }
 .feedIndex {
-        margin: 3px 0 0 -45px !important;
-        }
+    margin: 3px 0 0 -45px !important;
+    }
 .tab .feedIndexTitleHolder {
-        width: 230px !important;
-        padding: 0 0 0 25px !important;
-        cursor: default !important;
-        overflow: visible !important;
-        }
+    width: 230px !important;
+    padding: 0 0 0 25px !important;
+    cursor: default !important;
+    overflow: visible !important;
+    }
 .moreHandle {
-        margin: 2px -10px 2px -15px !important;
-        padding: 0 10px 0 20px !important;
-}
+    margin: 2px -10px 2px -15px !important;
+    padding: 0 10px 0 20px !important;
+    }
 .moreHandle, .tab .feedIndexTitleHolder {
-        height: 18px !important;
-        max-height: 18px !important;
-        line-height: 16px !important;
-        cursor: default !important;
-        }
+    height: 18px !important;
+    max-height: 18px !important;
+    line-height: 16px !important;
+    cursor: default !important;
+    }
 .feedIndexTitleHolder:hover, .moreHandle:hover {
-        background: #777777 !important;
-        }
+    background: #777777 !important;
+    }
 div.tab img.icon {
-        width: 4px !important;
-        height: 19px !important;
-        margin: 0 0 0 -15px !important;
-        background: #FFFFFF !important;
-        cursor: default !important;
-        }
+    width: 4px !important;
+    height: 19px !important;
+    margin: 0 0 0 -15px !important;
+    background: #FFFFFF !important;
+    cursor: default !important;
+    }
 [style="height:17px"], [style="height:26px"], #feedlyTabsHolder .favicon {
-        display: none !important;
-        }
- 
+    display: none !important;
+    }
 #fixedProfile {
-        width: 100% !important;
-        padding: 0 !important;
-        border-top: 1px solid #777777 !important;
-        }
+    width: 100% !important;
+    padding: 0 !important;
+    border-top: 1px solid #777777 !important;
+    }
 [data-uri='pro/navbar'] {
-        padding: 0 2px 0 2px !important;
-        background: #333333 !important;
-        border: 1px solid #777777 !important;
-        }
- 
+    padding: 0 2px 0 2px !important;
+    background: #333333 !important;
+    border: 1px solid #777777 !important;
+    }
  
  
 /* Headline View */
 #feedlyFrame {
-        margin-left: 250px !important;
-        background: #333333 !important;
-        }
+    margin-left: 250px !important;
+    background: #222 !important;
+    }
 #mainBar, #feedlyPage, #mainArea {
-        width: 100% !important;
-        }
+    width: 100% !important;
+    }
+#mainBar {
+    padding-bottom: 7px !important;
+    }
 #feedlyTitleBar {
-        text-align: center !important;
-        }
+    text-align: center !important;
+    }
 #feedlyPart {
-        padding: 0 200px 0 200px !important;
-        }
+    padding: 0 200px 0 200px !important;
+    }
 #feedlyPart0.area {
-        padding-left: 0 !important;
-        }
+    padding-left: 0 !important;
+    }
  
 .pageActionBar {
-        position: absolute !important;
-        top: 0 !important;
-        right: 0 !important;
-        }
+    position: absolute !important;
+    top: 0 !important;
+    right: 0 !important;
+    }
 .pageAction {
-        opacity: 1.0 !important;
-        }
+    opacity: 1.0 !important;
+    }
+#pageActionMarkAsRead, #pageActionRefresh, #pageActionCustomize {
+    height: 24px !important;
+    padding-left: 24px !important;
+    width: 0 !important;
+    background-size: 24px 24px !important;
+    }
 #pageActionMarkAsRead {
-        content: url('https://i.imgur.com/Ii7P92i.png') !important;
-        }
+    background-image: url("https://i.imgur.com/Ii7P92i.png") !important;
+    }
 #pageActionRefresh {
-        content: url('https://i.imgur.com/FZ5gU2o.png') !important;
-        }
+    background-image: url('https://i.imgur.com/FZ5gU2o.png') !important;
+    }
 #pageActionCustomize {
-        content: url('https://i.imgur.com/x0WzUvE.png') !important;
-        }
+    background-image: url('https://i.imgur.com/x0WzUvE.png') !important;
+    }
  
 #searchBoxPlaceholder {
-        margin-left: 8px !important;
-        }
+    margin-left: 8px !important;
+    }
 #herculeHint {
-        color: #222222 !important;
-        background: #333333 !important;
-        border: none !important;
-        }
+    color: #222222 !important;
+    background: #333333 !important;
+    border: none !important;
+    }
 #herculeInput {
-        left: 5px !important;
-        width: 170px !important;
-        color: #FFFFFF !important;
-        text-transform: capitalize !important;
-        }
- 
+    margin-left: -20px !important;
+    width: 170px !important;
+    color: #FFFFFF !important;
+    text-transform: capitalize !important;
+    }
+.hercule-search {
+    display: none !important;
+    }
+#herculeFrame {
+    background-color: #222 !important;
+    }
+
 #floatingBar {
-        text-align: center !important;
-        font-size: 0.8em !important;
-        background: #222222 !important;
-        border-bottom: 1px solid #777777 !important;
-        cursor: default !important;
-        }
- 
+    width: 83% !important;
+    margin-left: 250px !important;
+    text-align: center !important;
+    background: #222222 !important;
+    border-bottom: 1px solid #777777 !important;
+    cursor: default !important;
+    }
+
+        
+    /* Entries */
 .u4Entry {
-        max-width: 100% !important;
-        height: 160px !important;
-        margin: 30px 0 30px 0 !important;
-        background: #333333 !important;
-        transition: box-shadow 0.2s linear !important;
-        }
+    max-width: 100% !important;
+    min-height: 160px !important;
+    height: auto !important;
+    margin: 10px 0 10px 0 !important;
+    background: #222222 !important;
+    transition: box-shadow 0.3s linear !important;
+    }
 .u4Entry:hover {
-        background: #555555 !important;
-        box-shadow: 0 0 10px #666666 !important;
-        transition: 0.3s linear !important;
-        }
+    box-shadow: 0 0 10px #777777 !important;
+    transition: 0.3s linear !important;
+    }
 .visual {
-        width: 240px !important;
-        height: 160px !important;
-        border: 0 !important;
-        }
+    width: 160px !important;
+    height: 160px !important;
+    border: 0 !important;
+    }
+.u4EntryAnnotationHolder {
+    width: 160px !important;
+    margin: 0 0 0 0 !important;
+    }
 .u4Entry .marginMaker {
-        margin-left: 250px !important;
-        }
+    margin: 0 0 0 170px !important;
+    }
 .u4Entry .title {
-        font: 1.6em Roboto Light !important;
-        color: #FFFFFF !important;
-        padding: 5px 0 5px 0 !important;
-        transition: color 0.2s linear !important;
-        }
+    font: 18px Roboto Light !important;
+    color: #FFFFFF !important;
+    padding: 0 0 0 0 !important;
+    transition: color 0.2s linear !important;
+    }
 .u4Entry .title:hover {
-        color: #AAAAAA !important;
-        cursor: default !important;
-        transition: 0.2s linear !important;
-        }
+    color: #AAAAAA !important;
+    cursor: default !important;
+    transition: 0.2s linear !important;
+    }
 .summary {
-        max-height: 100% !important;
-        font: 1.3em Roboto Slab Light !important;
-        line-height: 24px !important;
-        color: #AAAAAA !important;
-        }
- 
+    max-height: 100% !important;
+    font: 16px 'Roboto' !important;
+    color: #AAAAAA !important;
+    }
+
 #bigMarkAllAsReadButton {
-        color: #FFFFFF !important;
-        background: #222222 !important;
-        border: 1px solid #777777 !important;
-        transition: box-shadow, background 0.3s linear !important;
-        }
+    color: #FFFFFF !important;
+    background: #222222 !important;
+    border: 1px solid #777777 !important;
+    transition: box-shadow, background 0.3s linear !important;
+    }
 #bigMarkAllAsReadButton:hover {
-        background: #777777 !important;
-        box-shadow: 0 0 20px 0 #777777 !important;
-        transition: 0.4s linear !important;
-        }
- 
+    background: #777777 !important;
+    box-shadow: 0 0 20px 0 #777777 !important;
+    transition: 0.4s linear !important;
+    }
+
 #sideArea, #realtimeSign, #feedlyUndoSign, .hhint, .entriesLoadingMessage, #bigMarkAllAsReadStats {
-        display: none !important;
-        }
- 
- 
- 
+    display: none !important;
+    }
+
+
 /* Article View */
 .sliderContainer, .sliderWidth {
-        width: 100% !important;
-        }
+    width: 100% !important;
+    }
 .entryholder, .floatingEntryScroller, .headerInfo {
-        background: #222222 !important;
-        }
+    background: #222222 !important;
+    }
 .u100Entry {
-        max-width: 100% !important;
-        }
+    max-width: 100% !important;
+    margin: 5px 0 0 0 !important;
+    }
 .u100Entry .title {
-        max-width: 100% !important;
-        text-align: center !important;
-        font: 2.5em Roboto Light !important;
-        font-weight: normal !important;
-        color: #FFFFFF !important;
-        margin: 0 0 20px 0 !important;
-        transition: color 0.3s linear !important;
-        }
+    max-width: 100% !important;
+    font: 28px Roboto Light !important;
+    font-weight: normal !important;
+    text-align: center !important;
+    color: #FFFFFF !important;
+    transition: color 0.3s linear !important;
+    }
 .entryBody {
-        max-width: 100% !important;
-        font: 1.0em Roboto Slab Light !important;
-        color: #FFFFFF !important;
-        margin: 0 500px 0 500px !important;
-        }
-.entryBody a {
-        transition: color 0.3s !important;
-        }
-.entryBody a:hover {
-        color: #777777 !important;
-        cursor: default !important;
-        transition: 0.3s linear !important;
-        }
+    max-width: 100% !important;
+    font: 18px 'Roboto' !important;
+    color: #FFFFFF !important;
+    margin: 0 20% 0 20% !important;
+    }
 .entryBody img {
-        border: none !important;
-        }
-.u100Entry .title:hover, .headerInfo-primary:hover, .headerInfo-secondary:hover {
-        color: #AAAAAA !important;
-        text-decoration: none !important;
-        cursor: default !important;
-        transition: 0.3s linear !important;
-        }
- 
+    max-width: 100% !important;
+    margin: 0 0 0 0 !important;
+    border: none !important;
+    }
+.u100Entry .title:hover, .headerInfo-title:hover {
+    color: #AAAAAA !important;
+    text-decoration: none !important;
+    cursor: default !important;
+    transition: 0.3s linear !important;
+    }
+
+    /* Header */
+.headerInfo {
+    height: 30px !important;
+    border-bottom: 1px solid #777777 !important;
+    }
 .headerInfo-title {
-        width: 100% !important;
-        max-width: 100% !important;
-        }
-.headerInfo-primary {
-        max-width: 100% !important;
-        text-align: center !important;
-        font: 1.5em Roboto Light !important;
-        font-weight: normal !important;
-        line-height: 100% !important;
-        transition: color 0.3s linear !important;
-        }
-.headerInfo-secondary {
-        text-align: center !important;
-        font-size: 1.0em !important;
-        color: #AAAAAA !important;
-        }
- 
-.frameActionsTop, .floatingEntryContent-tab, .metadata, .websiteCallForAction {
-        display: none !important;
-        }
- 
- 
- 
+    width: 100% !important;
+    max-width: 100% !important;
+    font: 18px 'Roboto Light' !important;
+    text-align: center !important;
+    }
+.frameActionsTop, .floatingEntryContent-tab, .metadata, .websiteCallForAction, .headerInfo-expanded-img {
+    display: none !important;
+    }
+
+
 /* Add Content */
 #herculePanel {
-        background: #222222 !important;
-        border: none !important;
-        }
+    background: #222222 !important;
+    border: none !important;
+    }
 #herculePanel .herculeResult:hover {
-        background: #777777 !important;
-        transition: 0.1s linear !important;
-        }
+    background: #777777 !important;
+    transition: 0.1s linear !important;
+    }
 #herculePanel .herculeSeparator {
-        font: 0.8em Roboto !important;
-        color: #FFFFFF !important;
-        background: #444444 !important;
-        }
- 
- 
- 
+    font: 0.8em Roboto !important;
+    color: #FFFFFF !important;
+    background: #444444 !important;
+    }
+
+
 /* Popups */
 .popup * {
-        color: #FFFFFF !important;
-        background: #222222 !important;
-        }
+    color: #FFFFFF !important;
+    background: #222222 !important;
+    }
 .action {
-        color: #FFFFFF !important;
-        }
+    color: #FFFFFF !important;
+    }
 [_controllerid='null'] {
-        left: 0 !important;
-        width: 268px !important;
-        }
- 
- 
+    left: 0 !important;
+    width: 268px !important;
+    }
  
  
 /* Organize */
 .subscriptionContentsHolder {
-        background: #222222 !important;
-        }
+    background: #222222 !important;
+    }
 .subscriptionContentsTitle {
-        color: #FFFFFF !important;
-        line-height: 100% !important;
-        }
- 
- 
- 
+    color: #FFFFFF !important;
+    line-height: 100% !important;
+    }
+
+
 /* Pro Support */
 .pro-features {
-        background: #222222 !important;
-        }
+    background: #222222 !important;
+    }
 .heroImage {
-        padding: 10px !important;
-        background: #777777 !important;
-        }
+    padding: 10px !important;
+    background: #777777 !important;
+    }
 .heroImage p {
-        color: #FFFFFF !important;
-        }
- 
- 
- 
+    color: #FFFFFF !important;
+    }
+
+
 /* Settings */
 .preferencesItemDescription, .preferencesItemLabel, .preferencesPanel label, .kindTablePreferences td, 
 .kindTablePreferences th {
-        color: #FFFFFF !important;
-}
+    color: #FFFFFF !important;
+    }
 .preferencesItemValue {
-        color: #FFFFFF !important;
-        background: #222222 !important;
-        }
+    color: #FFFFFF !important;
+    background: #222222 !important;
+    }
 .kindTablePreferences thead {
-        background: #222222 !important;
-        }
+    background: #222222 !important;
+    }
 
 
 
