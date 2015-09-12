@@ -1,9 +1,7 @@
 /* AGENT_SHEET */
 @namespace url(http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul);
 
-
-
-/* Navigation Bar */
+/* Navigation Bar
 #nav-bar {
     height: 18px !important;
     margin: 0px 0px -2px 0px !important;
@@ -12,48 +10,12 @@
     border: none !important;
     box-shadow: none !important;
     }
+*/
+
 #back-button,
 #forward-button {
     display: none !important;
     }
-
-
-
-/* URL Bar */
-#urlbar-container {
-    margin-top: -2px !important;
-    -moz-box-align: inherit !important;
-    }
-#urlbar-wrapper {
-    -moz-margin-start: 0px !important;
-    clip-path: none !important;
-    }
-#urlbar {
-    font: 0.8em 'Roboto' !important;
-    color: #CCC !important;
-    margin: 0px 0px 2px 0px !important;
-    padding: 0px 0px 0px 0px !important;
-    -moz-padding-start: 0px !important;
-    background: #222 !important;
-    border: none !important;
-    transition: background 0.1s linear !important;
-    }
-#urlbar-textbox-container {
-    margin: 0px 0px 0px 0px !important;
-    }
-.textbox-input-box.urlbar-input-box {
-    margin-left: 5px !important;
-    }
-#notification-popup-box,
-#identity-box,
-#reader-mode-button,
-.autocomplete-history-dropmarker,
-#urlbar-reload-button,
-#urlbar-stop-button,
-#urlbar-go-button {
-    display: none !important;
-    }
-
 
 
 /* Toolbar */
@@ -77,19 +39,11 @@ toolbarbutton-1 {
 #PanelUI-button {
     background: none !important;
     }
-#bookmarks-menu-button,
-#pocket-button,
-#downloads-button,
-#home-button,
-#loop-button,
-#search-container,
-#urlbar-search-splitter {
-    display: none !important;
-    }
 
 
 
-/* Autocomplete Box */
+
+/* Autocomplete Box
 #PopupAutoCompleteRichResult {
     -moz-appearance: none !important;
     }
@@ -114,6 +68,7 @@ richlistitem[selected="true"] {
 .ac-normal-text.ac-action-text {
     color: #FFF !important;
     }
+*/
 
 
 
@@ -123,7 +78,7 @@ richlistitem[selected="true"] {
     font: 0.8em 'Roboto' !important;
     color: #FFF !important;
     text-decoration: none !important;
-    margin: -1px 0px 1px 0px !important;
+    margin: -1px 0 1px 0 !important;
     background: #222 !important;
     }
 .tabbrowser-tab[pinned] {
@@ -132,7 +87,7 @@ richlistitem[selected="true"] {
     }
 .tabbrowser-tabs {
     min-height: 18px !important;
-    margin: 0px -15px 0px -15px !important;
+    margin: 0 0 1px -15px !important;
     background: #222 !important;
     }
 .tabbrowser-tab[selected] {
@@ -156,22 +111,30 @@ richlistitem[selected="true"] {
 .tab-icon-image {
     margin: 0px 6px 0px 0px !important;
     }
-.tabs-newtab-button,
+
 .tab-close-button,
 .tab-throbber,
 .tab-background-start,
 .tab-background-end,
 .tabbrowser-tab:before,
-.tabbrowser-tab:after,
-.tabbrowser-tab:not([pinned]) .tab-icon-image {
+.tabbrowser-tab:after {
+    display: none !important;
+    }
+
+#notification-popup-box,
+#identity-box,
+#reader-mode-button,
+.autocomplete-history-dropmarker,
+#urlbar-reload-button,
+#urlbar-stop-button,
+#urlbar-go-button {
     display: none !important;
     }
 
 
 
-/* Scroll Bars */
+/* Scroll Bars
 scrollbar {
-    -moz-appearance: none !important;
     }
 slider {
     background: #222 !important;
@@ -191,13 +154,15 @@ scrollbarbutton {
     -moz-appearance: none !important;
     border: none !important;
     }
+*/
 
 
 
-/* Add-ons Manager */
+/* Add-ons Manager
 .addon[selected], .category[selected] {
     -moz-border-start: none !important;
     }
 .list > scrollbox > .scrollbox-innerbox {
     border: none !important;
     }
+*/
